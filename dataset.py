@@ -1,10 +1,11 @@
+from pathlib import Path
+
 import torch.nn
+import torchvision
+from lxml import etree
 from torch import Tensor
 from torch.utils.data import Dataset
-from pathlib import Path
 from torchvision import transforms
-from lxml import etree
-import torchvision
 
 
 class RandomAllImageDataset(Dataset):
