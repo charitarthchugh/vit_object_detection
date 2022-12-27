@@ -252,3 +252,4 @@ fabric.properties
 
 # User Gitignore
 memray-*
+wandb/
