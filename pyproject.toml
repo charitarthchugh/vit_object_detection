@@ -2,10 +2,12 @@
 name = "vit-object-detection-test"
 version = "0.1.0"
 description = "Object Detection using ViT"
-authors = ["charitarthchugh <37895518+charitarthchugh@users.noreply.github.com>"]
+authors = [
+    "charitarthchugh <37895518+charitarthchugh@users.noreply.github.com>",
+]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "vit_object_detection_test"}]
+packages = [{ include = "vit_object_detection_test" }]
 
 [tool.poetry.dependencies]
 python = "~3.10"
@@ -14,6 +16,7 @@ torchvision = "^0.14.1"
 wandb = "^0.13.7"
 lxml = "^4.9.2"
 tqdm = "^4.64.1"
+einops = "^0.6.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^22.12.0"
