@@ -253,3 +253,5 @@ fabric.properties
 # User Gitignore
 memray-*
 wandb/
+logs/
+*.h5
