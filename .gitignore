@@ -255,3 +255,4 @@ memray-*
 wandb/
 logs/
 *.h5
+testing/
